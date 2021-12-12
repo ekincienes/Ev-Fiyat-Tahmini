@@ -43,7 +43,7 @@ So we did not manipulate the dataset. Since we were going to make a price predic
 Cause this problem was a regression problem. We did think about XGBoost Regressor(which is one of the high-end algorithms for regression), 
 but it was very complicated and hard to understand for us so we have decided on a basic regression algorithm, which is Linear Regression.
 
-We got the dataset from the kaggle and loaded it into a pandas dataframe, split it into X and Y. X is for first 13 attributes, Y is for the last attribute(price).
+We got the dataset from kaggle and loaded it into a pandas dataframe, split it into X and Y. X is for first 13 attributes, Y is for the last attribute(price).
 
 After that we applied cross validation by splitting dataset into two parts; %75 for the train and %25 for the test.
 And we have set the model for our project to Linear Regression from the Scikit-learn library. 
