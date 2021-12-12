@@ -55,6 +55,6 @@ And we have also checked whether there is a overfitting or underfitting situatio
 For that we have used Matplotlib library, compared the prediction prices and actual prices. And it seemed fine. 
 
 At the end of the project we have a model for house price prediction
-with an accuracy score of %85(There is no exact accuracy score for the regression problems so it is an approximate percentage).
+with an accuracy score of %85(There is no exact accuracy score for regression problems so it is an approximate percentage) and 3.63 mean absolute error for test values.
 
 - Kaggle Dataset Link: https://www.kaggle.com/prasadperera/the-boston-housing-dataset/data?select=housing.csv
